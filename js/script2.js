@@ -1,7 +1,7 @@
 let lightColor = prompt('Please put light color of traffic lights', 'green');
 
 function trafficLights(lightColor) {
-    if (lightColor >= 0 ) {
+    if (lightColor >= 0 || lightColor < 0) {
         return 'We need a light of traffic lights';
     }
     switch (lightColor.toLowerCase()) {
